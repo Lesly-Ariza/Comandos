@@ -26,7 +26,7 @@ if opcion == 1:
             esp=input("Ingrese la palabra en español: ")
             ing=input("Ingrese su significado en ingles: ")
             diccionario[esp]=ing
-            continua=input("Desea agregar otra palabra:[s/n")
+            continua=input("Desea agregar otra palabra:s/n")
         return diccionario
 
     def imprimir(diccionario):
