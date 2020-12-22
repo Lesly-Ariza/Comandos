@@ -1,0 +1,4 @@
+1;Carlos;Pérez;05/10/1980
+2;Lesly;Ariza;20/12/1989
+3;Antares;Nova;20/09/2007
+4;Mauro;Lopez;27/11/1990

@@ -7,8 +7,8 @@ def cargar():
     while i<=cantidad:
         lista.append(int(input("Ingrese un valor: ")))
         i=i+1
-    return lista
     print("La lista ingresada es: ", lista)
+    return lista
 
 def suma(lista):
     suma=0
@@ -28,9 +28,4 @@ def menor(lista):
     for x in range(1,len(lista)):
         if lista[x]< men:
             men=lista[x]
-    print("El número mayor es: ", men)
-
-lista=cargar()
-suma(lista)
-mayor(lista)
-menor(lista)
+    print("El número menor es: ", men)
